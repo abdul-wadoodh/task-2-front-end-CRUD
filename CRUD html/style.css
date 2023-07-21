@@ -1,0 +1,54 @@
+
+h2{
+    color: #4CAF50;
+}
+#addStudent label{
+    display: block;
+    padding: 5px;
+    width: 100%;
+    margin: 2px 0px;
+    font-size: 16px;
+    font-weight: bolder;
+    
+}
+#addStudent input{
+    border: 1px solid #7EA8F8;
+    padding: 4px;
+}
+#addStudent button{
+    padding: 4px;
+    border: 1px solid #7EA8F8;
+    margin-top: 8px;
+    background-color: #4CAF50;
+    color: white;
+
+}
+.studentTable {
+    width: 100%;
+    background-color: #FFFFFF;
+    border-collapse: collapse;
+    border-width: 2px;
+    border-color: #7EA8F8;
+    border-style: solid;
+    color: #000000;
+    
+  }
+  
+  .studentTable td, .studentTable th {
+    border-width: 2px;
+    border-color: #7EA8F8;
+    border-style: solid;
+    padding: 5px;
+  }
+  
+  .studentTable thead {
+    background-color: #7EA8F8;
+  }
+ 
+  .delete{
+    background-color: rgb(185, 34, 34);
+    color: white;
+  }
+  .hidden {
+    display: none;
+}
